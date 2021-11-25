@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+#logo-main {
+  display: block;
+  margin: 20px auto;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eeebeb;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 1%;
+  padding: 1%;
+  border-color:#fddb3a;
+  border-radius: 1%;
+  margin-bottom: 3%;
+}
+
+.navMenu a {
+  color: #1b1b1b;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+    .space{
+
+      height: 25rem;
+
+      text-align: center;
+     
+     font-family:Arial, Helvetica, sans-serif;
+
+    }
+
+    .space img{
+
+      width: 10rem;
+
+      height: 10rem;
+
+      border-radius: 50%;
+
+      margin: 40px;
+
+    }
+
+    .space1{
+
+      height: 8rem;
+
+      text-align:left;
+     
+     font-family:Arial, Helvetica, sans-serif;
+     padding-left: 5%;
+
+    }
+
+    .space1 img{
+
+      width: 3rem;
+
+      height: 3rem;
+
+      border-radius: 50%;
+
+      margin: 40px;
+
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    /* footer {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    } */
+    
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    ul li {
+      list-style: none;
+    }
+    
+    #contact a {
+      color: #c9b6e9;
+      margin: 10px;
+    }
+    
+    #contact {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      background-color: #d9c8f8;
+    }
+    
+    #icon {
+      background-color: #fff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 1s, box-shadow 0.5s;
+      box-shadow: 0 2px 3px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 24%);
+    }
+    
+    #icon-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    #icon:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 3px 5px 5px rgb(0 0 0 / 12%), 0 3px 5px rgb(0 0 0 / 24%);
+    }
+    
+    #contact p {
+      font-size: 14px;
+    }
+    
+    @media screen and (max-width: 426px) {
+     #icon {
+       width: 30px;
+       height: 30px;
+      }
+      
+      ul li {
+        font-size: 12px;
+      }
+      
+      #contact p {
+        font-size: 10px;
+      }
+    }
+    
+    @media screen and (min-width: 2560px) {
+     #icon {
+       width: 50px;
+       height: 50px;
+      }
+      
+      ul li {
+        font-size: 20px;
+      }
+      
+      #contact p {
+        font-size: 16px;
+      }
+    }
+
+
+
+    
